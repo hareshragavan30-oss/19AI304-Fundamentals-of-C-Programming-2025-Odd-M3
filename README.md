@@ -52,27 +52,8 @@ for (k = i - 1; k >= 0; k--) {
 
 return 0;
 # Output:
-#include <stdio.h>
+<img width="1559" height="625" alt="image" src="https://github.com/user-attachments/assets/6431a7d4-000f-413c-bc4c-aa5c7ae29c04" />
 
-int main() { int num, rem; int binary[32]; int i = 0, k;
-
-// Read the decimal number
-printf("Enter a decimal number: ");
-scanf("%d", &num);
-
-// Convert decimal to binary
-while (num > 0) {
-    rem = num % 2;
-    binary[i] = rem;
-    i++;
-    num = num / 2;
-}
-
-// Display binary number in reverse order
-printf("Binary equivalent: ");
-for (k = i - 1; k >= 0; k--) {
-    printf("%d", binary[k]);
-}
 
 return 0;
 # Result: 
